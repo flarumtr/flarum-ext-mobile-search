@@ -1,0 +1,35 @@
+{
+    "name": "flarumtr/flarum-ext-mobile-search",
+    "description": "Move mobile search to homepage",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "proprietary",
+    "require": {
+        "flarum/core": "^0.1.0-beta.15"
+    },
+    "authors": [
+        {
+            "name": "Flarumtr",
+            "email": "flarumtr@gmail.com",
+            "homepage": "https://flarumtr.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarumtr/flarum-ext-mobile-search/issues",
+        "source": "https://github.com/flarumtr/flarum-ext-mobile-search"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Mobile Search",
+            "category": "theme",
+            "icon": {
+                "name": "fas fa-search",
+                "backgroundColor": "#684ba6",
+                "color": "#fff"
+            }
+        }
+    }
+}

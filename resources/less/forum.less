@@ -1,0 +1,35 @@
+@media @tablet-up {
+    .IndexPage-toolbar-view .item-search {
+        display: none;
+    }
+}
+
+@media @phone {
+    // Hide normal search when on homepage
+    .App--index .Header-controls .item-search {
+        display: none;
+    }
+
+    // Expand search bar to available space
+    .IndexPage-toolbar {
+        display: flex;
+
+        .IndexPage-toolbar-view {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+
+            .item-search {
+                flex: 1;
+
+                .Search-input input {
+                    width: 100%;
+                }
+            }
+        }
+
+        .IndexPage-toolbar-action {
+            display: flex;
+        }
+    }
+}
